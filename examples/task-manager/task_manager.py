@@ -8,7 +8,7 @@ break down, and get suggestions for your tasks.
 import json
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import anthropic
@@ -27,8 +27,12 @@ TASKS_FILE = Path.home() / ".task_manager_tasks.json"
 
 def load_tasks() -> list[dict]:
     if TASKS_FILE.exists():
-        with open(TASKS_FILE) as f:
-            return json.load(f)
+        try:
+            with open(TASKS_FILE) as f:
+                return json.load(f)
+        except json.JSONDecodeError:
+            console.print(f"[red]Warning: {TASKS_FILE} is corrupted. Starting with empty task list.[/red]")
+            return []
     return []
 
 
@@ -75,6 +79,21 @@ def render_tasks(tasks: list[dict], title: str = "Tasks") -> None:
         )
 
     console.print(table)
+
+
+# ── Validation helpers ─────────────────────────────────────────────────────────
+
+def prompt_due_date(default: str = "") -> str:
+    """Prompt for a due date, re-asking until a valid YYYY-MM-DD or empty string is given."""
+    while True:
+        value = Prompt.ask("Due date (YYYY-MM-DD, optional)", default=default).strip()
+        if not value:
+            return ""
+        try:
+            datetime.strptime(value, "%Y-%m-%d")
+            return value
+        except ValueError:
+            console.print("[red]Invalid date format. Please use YYYY-MM-DD (e.g. 2026-03-15).[/red]")
 
 
 # ── AI helpers ─────────────────────────────────────────────────────────────────
@@ -134,7 +153,7 @@ def cmd_add(tasks: list[dict]) -> list[dict]:
 
     description = Prompt.ask("Description (optional)", default="")
     priority = Prompt.ask("Priority", choices=["high", "medium", "low"], default="medium")
-    due_date = Prompt.ask("Due date (YYYY-MM-DD, optional)", default="")
+    due_date = prompt_due_date()
     tags_raw = Prompt.ask("Tags (comma-separated, optional)", default="")
     tags = [t.strip() for t in tags_raw.split(",") if t.strip()]
 
@@ -145,13 +164,16 @@ def cmd_add(tasks: list[dict]) -> list[dict]:
         "priority": priority,
         "status": "todo",
         "created_at": datetime.now().isoformat(),
-        "due_date": due_date.strip(),
+        "due_date": due_date,
         "tags": tags,
     }
     tasks.append(task)
     save_tasks(tasks)
     console.print(f"[green]✓ Task #{task['id']} added.[/green]")
     return tasks
+
+
+SORT_PRIORITY = {"high": 0, "medium": 1, "low": 2}
 
 
 def cmd_list(tasks: list[dict]) -> list[dict]:
@@ -161,7 +183,38 @@ def cmd_list(tasks: list[dict]) -> list[dict]:
         default="all",
     )
     filtered = tasks if filter_status == "all" else [t for t in tasks if t.get("status") == filter_status]
-    render_tasks(filtered, title=f"Tasks ({filter_status})")
+
+    sort_by = Prompt.ask(
+        "Sort by",
+        choices=["none", "priority", "due_date", "status"],
+        default="none",
+    )
+    if sort_by == "priority":
+        filtered = sorted(filtered, key=lambda t: SORT_PRIORITY.get(t.get("priority", "medium"), 1))
+    elif sort_by == "due_date":
+        filtered = sorted(filtered, key=lambda t: (t.get("due_date") == "" or t.get("due_date") is None, t.get("due_date", "")))
+    elif sort_by == "status":
+        status_order = {"todo": 0, "in_progress": 1, "done": 2}
+        filtered = sorted(filtered, key=lambda t: status_order.get(t.get("status", "todo"), 0))
+
+    render_tasks(filtered, title=f"Tasks ({filter_status})" + (f" sorted by {sort_by}" if sort_by != "none" else ""))
+    return tasks
+
+
+def cmd_search(tasks: list[dict]) -> list[dict]:
+    console.print(Panel("🔍 [bold]Search tasks[/bold]"))
+    keyword = Prompt.ask("Search keyword").strip().lower()
+    if not keyword:
+        console.print("[yellow]No keyword entered.[/yellow]")
+        return tasks
+
+    results = [
+        t for t in tasks
+        if keyword in t.get("title", "").lower()
+        or keyword in t.get("description", "").lower()
+        or any(keyword in tag.lower() for tag in t.get("tags", []))
+    ]
+    render_tasks(results, title=f'Search results for "{keyword}"')
     return tasks
 
 
@@ -179,6 +232,7 @@ def cmd_update(tasks: list[dict]) -> list[dict]:
         return tasks
 
     console.print(f"Updating: [bold]{task['title']}[/bold]")
+
     new_status = Prompt.ask(
         "New status",
         choices=["todo", "in_progress", "done"],
@@ -189,8 +243,18 @@ def cmd_update(tasks: list[dict]) -> list[dict]:
         choices=["high", "medium", "low"],
         default=task.get("priority", "medium"),
     )
+    new_title = Prompt.ask("Title", default=task.get("title", "")).strip() or task.get("title", "")
+    new_description = Prompt.ask("Description", default=task.get("description", "")).strip()
+    new_due_date = prompt_due_date(default=task.get("due_date", ""))
+    tags_raw = Prompt.ask("Tags (comma-separated)", default=", ".join(task.get("tags", [])))
+    new_tags = [t.strip() for t in tags_raw.split(",") if t.strip()]
+
     task["status"] = new_status
     task["priority"] = new_priority
+    task["title"] = new_title
+    task["description"] = new_description
+    task["due_date"] = new_due_date
+    task["tags"] = new_tags
     task["updated_at"] = datetime.now().isoformat()
     save_tasks(tasks)
     console.print(f"[green]✓ Task #{task_id} updated.[/green]")
@@ -279,7 +343,7 @@ def cmd_breakdown(tasks: list[dict], client: anthropic.Anthropic) -> list[dict]:
             save_tasks(tasks)
             console.print(f"[green]✓ {len(subtask_titles)} subtasks added.[/green]")
     except json.JSONDecodeError:
-        pass  # AI already streamed a readable response; JSON parse was best-effort
+        console.print("[yellow]Note: Could not parse subtasks as JSON. No tasks were added.[/yellow]")
 
     return tasks
 
@@ -294,6 +358,65 @@ def cmd_suggest(tasks: list[dict], client: anthropic.Anthropic) -> list[dict]:
         f"Here is my full task list:\n\n{context}\n\n"
         "Give me 3-5 practical suggestions to improve my productivity and task management, "
         "based specifically on what you see in my task list.",
+    )
+    return tasks
+
+
+def cmd_plan_week(tasks: list[dict], client: anthropic.Anthropic) -> list[dict]:
+    today = datetime.now().date()
+    week_end = today + timedelta(days=7)
+
+    relevant = [
+        t for t in tasks
+        if t.get("status") != "done" and (
+            not t.get("due_date")
+            or today <= datetime.strptime(t["due_date"], "%Y-%m-%d").date() <= week_end
+        )
+    ]
+
+    if not relevant:
+        console.print("[yellow]No open tasks due in the next 7 days.[/yellow]")
+        return tasks
+
+    render_tasks(relevant, title=f"Tasks for the week ({today} – {week_end})")
+    context = build_task_context(relevant)
+    console.print(Panel("🤖 [bold]AI Week Plan[/bold]", style="blue"))
+
+    ai_request(
+        client,
+        SYSTEM_PROMPT,
+        f"Today is {today}. Here are my tasks for the coming week:\n\n{context}\n\n"
+        "Please create a practical day-by-day plan for this week, "
+        "distributing the tasks across the days to keep a manageable workload. "
+        "Account for priorities and due dates in your plan.",
+    )
+    return tasks
+
+
+def cmd_overdue(tasks: list[dict], client: anthropic.Anthropic) -> list[dict]:
+    today = datetime.now().date()
+
+    overdue = [
+        t for t in tasks
+        if t.get("status") != "done"
+        and t.get("due_date")
+        and datetime.strptime(t["due_date"], "%Y-%m-%d").date() < today
+    ]
+
+    if not overdue:
+        console.print("[green]No overdue tasks. Great job staying on top of things![/green]")
+        return tasks
+
+    render_tasks(overdue, title=f"Overdue Tasks (today: {today})")
+    context = build_task_context(overdue)
+    console.print(Panel("🤖 [bold]AI Overdue Analysis[/bold]", style="blue"))
+
+    ai_request(
+        client,
+        SYSTEM_PROMPT,
+        f"Today is {today}. These tasks are overdue:\n\n{context}\n\n"
+        "Please advise on how to handle each overdue task: should I reschedule it, "
+        "drop it, delegate it, or tackle it urgently? Be practical and direct.",
     )
     return tasks
 
@@ -343,10 +466,13 @@ MENU = {
     "2": ("Add task", cmd_add, False),
     "3": ("Update task", cmd_update, False),
     "4": ("Delete task", cmd_delete, False),
-    "5": ("🤖 AI: Prioritize my tasks", cmd_prioritize, True),
-    "6": ("🤖 AI: Break down a task", cmd_breakdown, True),
-    "7": ("🤖 AI: Get productivity suggestions", cmd_suggest, True),
-    "8": ("🤖 AI: Chat about my tasks", cmd_chat, True),
+    "5": ("Search tasks", cmd_search, False),
+    "6": ("🤖 AI: Prioritize my tasks", cmd_prioritize, True),
+    "7": ("🤖 AI: Break down a task", cmd_breakdown, True),
+    "8": ("🤖 AI: Get productivity suggestions", cmd_suggest, True),
+    "9": ("🤖 AI: Plan my week", cmd_plan_week, True),
+    "10": ("🤖 AI: Identify overdue tasks", cmd_overdue, True),
+    "11": ("🤖 AI: Chat about my tasks", cmd_chat, True),
     "q": ("Quit", None, False),
 }
 
