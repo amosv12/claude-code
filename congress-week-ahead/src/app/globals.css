@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-lg border border-slate-200 shadow-sm hover:shadow-md transition-shadow;
+  }
+  .btn-primary {
+    @apply bg-civic-blue text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors;
+  }
+  .btn-secondary {
+    @apply bg-white text-slate-700 px-4 py-2 rounded-lg font-medium border border-slate-300 hover:bg-slate-50 transition-colors;
+  }
+  .chip {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium cursor-pointer transition-colors;
+  }
+  .chip-active {
+    @apply bg-civic-blue text-white;
+  }
+  .chip-inactive {
+    @apply bg-slate-100 text-slate-600 hover:bg-slate-200;
+  }
+}
