@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Brewcraft",
+    "slug": "brewcraft-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
