@@ -1,0 +1,2360 @@
+[
+  {
+    "ward_code": "SOR-001",
+    "ward_name": "השתלת מח עצם",
+    "hospital": "סורוקה",
+    "specialty": "המטולוגיה",
+    "total_beds": 6,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-002",
+    "ward_name": "עור ומין",
+    "hospital": "סורוקה",
+    "specialty": "עור ומין",
+    "total_beds": 8,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-003",
+    "ward_name": "אונקולוגיה",
+    "hospital": "סורוקה",
+    "specialty": "אונקולוגיה",
+    "total_beds": 33,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-004",
+    "ward_name": "נוירולוגיה",
+    "hospital": "סורוקה",
+    "specialty": "נוירולוגיה",
+    "total_beds": 39,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-005",
+    "ward_name": "פנימית גריאטרית",
+    "hospital": "סורוקה",
+    "specialty": "רפואה פנימית",
+    "total_beds": 25,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-006",
+    "ward_name": "המטואונקולוגיה",
+    "hospital": "סורוקה",
+    "specialty": "רפואה פנימית",
+    "total_beds": 17,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-007",
+    "ward_name": "נפרולוגיה",
+    "hospital": "סורוקה",
+    "specialty": "רפואה פנימית",
+    "total_beds": 8,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-008",
+    "ward_name": "פנימית (נוסף)",
+    "hospital": "סורוקה",
+    "specialty": "רפואה פנימית",
+    "total_beds": 8,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-009",
+    "ward_name": "פנימית א'",
+    "hospital": "סורוקה",
+    "specialty": "רפואה פנימית",
+    "total_beds": 37,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-010",
+    "ward_name": "פנימית ב'",
+    "hospital": "סורוקה",
+    "specialty": "רפואה פנימית",
+    "total_beds": 37,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-011",
+    "ward_name": "פנימית ג'",
+    "hospital": "סורוקה",
+    "specialty": "רפואה פנימית",
+    "total_beds": 37,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-012",
+    "ward_name": "פנימית ד'",
+    "hospital": "סורוקה",
+    "specialty": "רפואה פנימית",
+    "total_beds": 37,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-013",
+    "ward_name": "פנימית ה'",
+    "hospital": "סורוקה",
+    "specialty": "רפואה פנימית",
+    "total_beds": 37,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-014",
+    "ward_name": "פנימית ו'",
+    "hospital": "סורוקה",
+    "specialty": "רפואה פנימית",
+    "total_beds": 37,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-015",
+    "ward_name": "פנימית ז'",
+    "hospital": "סורוקה",
+    "specialty": "רפואה פנימית",
+    "total_beds": 36,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-016",
+    "ward_name": "כירורגיה ילדים",
+    "hospital": "סורוקה",
+    "specialty": "כירורגיה",
+    "total_beds": 30,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-017",
+    "ward_name": "טיפול מיוחד בילוד",
+    "hospital": "סורוקה",
+    "specialty": "טיפול נמרץ ילודים",
+    "total_beds": 64,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-018",
+    "ward_name": "ט.נ. ילדים",
+    "hospital": "סורוקה",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 12,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-019",
+    "ward_name": "המטואונקולוגיה ילדים",
+    "hospital": "סורוקה",
+    "specialty": "המטואונקולוגיה ילדים",
+    "total_beds": 10,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-020",
+    "ward_name": "ילדים א'",
+    "hospital": "סורוקה",
+    "specialty": "ילדים",
+    "total_beds": 32,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-021",
+    "ward_name": "ילדים ב'",
+    "hospital": "סורוקה",
+    "specialty": "ילדים",
+    "total_beds": 32,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-022",
+    "ward_name": "ילדים ג'",
+    "hospital": "סורוקה",
+    "specialty": "ילדים",
+    "total_beds": 32,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-023",
+    "ward_name": "ט.נ. לב ביניים",
+    "hospital": "סורוקה",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 14,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-024",
+    "ward_name": "ט.נ. לב",
+    "hospital": "סורוקה",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 9,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-025",
+    "ward_name": "ט.נ. כללי ביניים",
+    "hospital": "סורוקה",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 12,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-026",
+    "ward_name": "ט.נ. כללי",
+    "hospital": "סורוקה",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 24,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-027",
+    "ward_name": "נשים",
+    "hospital": "סורוקה",
+    "specialty": "נשים ויולדות",
+    "total_beds": 45,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-028",
+    "ward_name": "א.א.ג ראש וצואר",
+    "hospital": "סורוקה",
+    "specialty": "אף אוזן גרון",
+    "total_beds": 20,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-029",
+    "ward_name": "עיניים",
+    "hospital": "סורוקה",
+    "specialty": "עיניים",
+    "total_beds": 18,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-030",
+    "ward_name": "כוויות",
+    "hospital": "סורוקה",
+    "specialty": "כוויות",
+    "total_beds": 5,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-031",
+    "ward_name": "כירורגיה פלסטית",
+    "hospital": "סורוקה",
+    "specialty": "כירורגיה",
+    "total_beds": 15,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-032",
+    "ward_name": "כירורגיה כלי דם",
+    "hospital": "סורוקה",
+    "specialty": "כירורגיה",
+    "total_beds": 9,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-033",
+    "ward_name": "כירורגיה חזה ולב",
+    "hospital": "סורוקה",
+    "specialty": "כירורגיה",
+    "total_beds": 18,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-034",
+    "ward_name": "נוירוכירורגיה",
+    "hospital": "סורוקה",
+    "specialty": "נוירוכירורגיה",
+    "total_beds": 21,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-035",
+    "ward_name": "אורולוגיה",
+    "hospital": "סורוקה",
+    "specialty": "אורולוגיה",
+    "total_beds": 25,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-036",
+    "ward_name": "כירורגיה כף יד",
+    "hospital": "סורוקה",
+    "specialty": "כירורגיה",
+    "total_beds": 5,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-037",
+    "ward_name": "אורתופדיה",
+    "hospital": "סורוקה",
+    "specialty": "אורתופדיה",
+    "total_beds": 60,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-038",
+    "ward_name": "כירורגיה כללית א'",
+    "hospital": "סורוקה",
+    "specialty": "כירורגיה",
+    "total_beds": 31,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-039",
+    "ward_name": "כירורגיה כללית ב'",
+    "hospital": "סורוקה",
+    "specialty": "כירורגיה",
+    "total_beds": 31,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-040",
+    "ward_name": "שיקום כללי",
+    "hospital": "סורוקה",
+    "specialty": "שיקום",
+    "total_beds": 36,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-041",
+    "ward_name": "הפרע.אכילה ילד.נוער",
+    "hospital": "סורוקה",
+    "specialty": "פסיכיאטריה",
+    "total_beds": 10,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-042",
+    "ward_name": "יולדות א'",
+    "hospital": "סורוקה",
+    "specialty": "נשים ויולדות",
+    "total_beds": 34,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-043",
+    "ward_name": "יולדות ב'",
+    "hospital": "סורוקה",
+    "specialty": "נשים ויולדות",
+    "total_beds": 34,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-044",
+    "ward_name": "יולדות ג'",
+    "hospital": "סורוקה",
+    "specialty": "נשים ויולדות",
+    "total_beds": 34,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-045",
+    "ward_name": "יולדות ד'",
+    "hospital": "סורוקה",
+    "specialty": "נשים ויולדות",
+    "total_beds": 34,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SOR-046",
+    "ward_name": "יולדות ה'",
+    "hospital": "סורוקה",
+    "specialty": "נשים ויולדות",
+    "total_beds": 33,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-047",
+    "ward_name": "השתלת מח עצם",
+    "hospital": "רבין - בילינסון",
+    "specialty": "המטולוגיה",
+    "total_beds": 14,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-048",
+    "ward_name": "עור ומין",
+    "hospital": "רבין - בילינסון",
+    "specialty": "עור ומין",
+    "total_beds": 18,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-049",
+    "ward_name": "אונקולוגיה",
+    "hospital": "רבין - בילינסון",
+    "specialty": "אונקולוגיה",
+    "total_beds": 25,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-050",
+    "ward_name": "שבץ מוחי",
+    "hospital": "רבין - בילינסון",
+    "specialty": "נוירולוגיה",
+    "total_beds": 4,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-051",
+    "ward_name": "נוירולוגיה",
+    "hospital": "רבין - בילינסון",
+    "specialty": "נוירולוגיה",
+    "total_beds": 38,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-052",
+    "ward_name": "פנימית גריאטרית",
+    "hospital": "רבין - בילינסון",
+    "specialty": "רפואה פנימית",
+    "total_beds": 30,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-053",
+    "ward_name": "המטואונקולוגיה",
+    "hospital": "רבין - בילינסון",
+    "specialty": "רפואה פנימית",
+    "total_beds": 14,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-054",
+    "ward_name": "פנימית א'",
+    "hospital": "רבין - בילינסון",
+    "specialty": "רפואה פנימית",
+    "total_beds": 38,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-055",
+    "ward_name": "פנימית ב'",
+    "hospital": "רבין - בילינסון",
+    "specialty": "רפואה פנימית",
+    "total_beds": 38,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-056",
+    "ward_name": "פנימית ג'",
+    "hospital": "רבין - בילינסון",
+    "specialty": "רפואה פנימית",
+    "total_beds": 38,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-057",
+    "ward_name": "פנימית ד'",
+    "hospital": "רבין - בילינסון",
+    "specialty": "רפואה פנימית",
+    "total_beds": 38,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-058",
+    "ward_name": "פנימית ה'",
+    "hospital": "רבין - בילינסון",
+    "specialty": "רפואה פנימית",
+    "total_beds": 38,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-059",
+    "ward_name": "פנימית ו'",
+    "hospital": "רבין - בילינסון",
+    "specialty": "רפואה פנימית",
+    "total_beds": 37,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-060",
+    "ward_name": "ט.נ. לב",
+    "hospital": "רבין - בילינסון",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 20,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-061",
+    "ward_name": "ט.נ. כללי",
+    "hospital": "רבין - בילינסון",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 17,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-062",
+    "ward_name": "נשים",
+    "hospital": "רבין - בילינסון",
+    "specialty": "נשים ויולדות",
+    "total_beds": 38,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-063",
+    "ward_name": "פה ולסתות",
+    "hospital": "רבין - בילינסון",
+    "specialty": "כירורגית פה ולסתות",
+    "total_beds": 8,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-064",
+    "ward_name": "א.א.ג ראש וצואר",
+    "hospital": "רבין - בילינסון",
+    "specialty": "אף אוזן גרון",
+    "total_beds": 30,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-065",
+    "ward_name": "עיניים",
+    "hospital": "רבין - בילינסון",
+    "specialty": "עיניים",
+    "total_beds": 26,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-066",
+    "ward_name": "כוויות",
+    "hospital": "רבין - בילינסון",
+    "specialty": "כוויות",
+    "total_beds": 6,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-067",
+    "ward_name": "כירורגיה פלסטית",
+    "hospital": "רבין - בילינסון",
+    "specialty": "כירורגיה",
+    "total_beds": 20,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-068",
+    "ward_name": "כירורגיה כלי דם",
+    "hospital": "רבין - בילינסון",
+    "specialty": "כירורגיה",
+    "total_beds": 12,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-069",
+    "ward_name": "כירורגיה חזה ולב",
+    "hospital": "רבין - בילינסון",
+    "specialty": "כירורגיה",
+    "total_beds": 32,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-070",
+    "ward_name": "ט.נ. נוירוכירורגיה",
+    "hospital": "רבין - בילינסון",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 6,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-071",
+    "ward_name": "נוירוכירורגיה",
+    "hospital": "רבין - בילינסון",
+    "specialty": "נוירוכירורגיה",
+    "total_beds": 30,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-072",
+    "ward_name": "אורולוגיה",
+    "hospital": "רבין - בילינסון",
+    "specialty": "אורולוגיה",
+    "total_beds": 34,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-073",
+    "ward_name": "אורתואונקולוגיה",
+    "hospital": "רבין - בילינסון",
+    "specialty": "אורתופדיה",
+    "total_beds": 2,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-074",
+    "ward_name": "אורתופדיה",
+    "hospital": "רבין - בילינסון",
+    "specialty": "אורתופדיה",
+    "total_beds": 28,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-075",
+    "ward_name": "ט.נ. כירורגיה כללית",
+    "hospital": "רבין - בילינסון",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 5,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-076",
+    "ward_name": "השתלת איברים",
+    "hospital": "רבין - בילינסון",
+    "specialty": "כירורגיה",
+    "total_beds": 12,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-077",
+    "ward_name": "כירורגיה כללית א'",
+    "hospital": "רבין - בילינסון",
+    "specialty": "כירורגיה",
+    "total_beds": 31,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-078",
+    "ward_name": "כירורגיה כללית ב'",
+    "hospital": "רבין - בילינסון",
+    "specialty": "כירורגיה",
+    "total_beds": 30,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-079",
+    "ward_name": "שיקום כללי",
+    "hospital": "רבין - בילינסון",
+    "specialty": "שיקום",
+    "total_beds": 5,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-080",
+    "ward_name": "יולדות א'",
+    "hospital": "רבין - בילינסון",
+    "specialty": "נשים ויולדות",
+    "total_beds": 32,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-081",
+    "ward_name": "יולדות ב'",
+    "hospital": "רבין - בילינסון",
+    "specialty": "נשים ויולדות",
+    "total_beds": 32,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBB-082",
+    "ward_name": "יולדות ג'",
+    "hospital": "רבין - בילינסון",
+    "specialty": "נשים ויולדות",
+    "total_beds": 32,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBG-083",
+    "ward_name": "פנימית א'",
+    "hospital": "רבין - גולדה השרון",
+    "specialty": "רפואה פנימית",
+    "total_beds": 38,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBG-084",
+    "ward_name": "פנימית ב'",
+    "hospital": "רבין - גולדה השרון",
+    "specialty": "רפואה פנימית",
+    "total_beds": 38,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBG-085",
+    "ward_name": "פנימית ג'",
+    "hospital": "רבין - גולדה השרון",
+    "specialty": "רפואה פנימית",
+    "total_beds": 38,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBG-086",
+    "ward_name": "ט.נ. לב",
+    "hospital": "רבין - גולדה השרון",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 6,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBG-087",
+    "ward_name": "ט.נ. כללי",
+    "hospital": "רבין - גולדה השרון",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 5,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBG-088",
+    "ward_name": "א.א.ג ראש וצואר",
+    "hospital": "רבין - גולדה השרון",
+    "specialty": "אף אוזן גרון",
+    "total_beds": 15,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBG-089",
+    "ward_name": "אורולוגיה",
+    "hospital": "רבין - גולדה השרון",
+    "specialty": "אורולוגיה",
+    "total_beds": 25,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBG-090",
+    "ward_name": "אורתופדיה א'",
+    "hospital": "רבין - גולדה השרון",
+    "specialty": "אורתופדיה",
+    "total_beds": 13,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBG-091",
+    "ward_name": "אורתופדיה ב'",
+    "hospital": "רבין - גולדה השרון",
+    "specialty": "אורתופדיה",
+    "total_beds": 12,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBG-092",
+    "ward_name": "כירורגיה כללית א'",
+    "hospital": "רבין - גולדה השרון",
+    "specialty": "כירורגיה",
+    "total_beds": 26,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "RBG-093",
+    "ward_name": "כירורגיה כללית ב'",
+    "hospital": "רבין - גולדה השרון",
+    "specialty": "כירורגיה",
+    "total_beds": 25,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SCH-094",
+    "ward_name": "השתלת מח עצם ילדים",
+    "hospital": "שניידר",
+    "specialty": "המטולוגיה",
+    "total_beds": 8,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SCH-095",
+    "ward_name": "כירורגיה ילדים",
+    "hospital": "שניידר",
+    "specialty": "כירורגיה",
+    "total_beds": 32,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SCH-096",
+    "ward_name": "ט.נ. ילודים",
+    "hospital": "שניידר",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 10,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SCH-097",
+    "ward_name": "טיפול מיוחד בילוד",
+    "hospital": "שניידר",
+    "specialty": "טיפול נמרץ ילודים",
+    "total_beds": 42,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SCH-098",
+    "ward_name": "ט.נ. כירו. חזה ולב ילדי",
+    "hospital": "שניידר",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 19,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SCH-099",
+    "ward_name": "ט.נ. ילדים",
+    "hospital": "שניידר",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 28,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SCH-100",
+    "ward_name": "אונקולוגיה ילדים",
+    "hospital": "שניידר",
+    "specialty": "ילדים",
+    "total_beds": 28,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SCH-101",
+    "ward_name": "ילדים א'",
+    "hospital": "שניידר",
+    "specialty": "ילדים",
+    "total_beds": 42,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SCH-102",
+    "ward_name": "ילדים ב'",
+    "hospital": "שניידר",
+    "specialty": "ילדים",
+    "total_beds": 42,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SCH-103",
+    "ward_name": "ילדים ג'",
+    "hospital": "שניידר",
+    "specialty": "ילדים",
+    "total_beds": 41,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SCH-104",
+    "ward_name": "אורתואונקולוגיה",
+    "hospital": "שניידר",
+    "specialty": "אורתופדיה",
+    "total_beds": 2,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SCH-105",
+    "ward_name": "הפרע.אכילה ילד.נוער",
+    "hospital": "שניידר",
+    "specialty": "פסיכיאטריה",
+    "total_beds": 4,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SCH-106",
+    "ward_name": "פסיכ.פעיל.ילד.נוער",
+    "hospital": "שניידר",
+    "specialty": "פסיכיאטריה",
+    "total_beds": 6,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-107",
+    "ward_name": "נוירולוגיה",
+    "hospital": "כרמל",
+    "specialty": "נוירולוגיה",
+    "total_beds": 15,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-108",
+    "ward_name": "פנימית גריאטרית",
+    "hospital": "כרמל",
+    "specialty": "רפואה פנימית",
+    "total_beds": 30,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-109",
+    "ward_name": "נפרולוגיה",
+    "hospital": "כרמל",
+    "specialty": "רפואה פנימית",
+    "total_beds": 8,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-110",
+    "ward_name": "קרדיולוגיה",
+    "hospital": "כרמל",
+    "specialty": "רפואה פנימית",
+    "total_beds": 17,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-111",
+    "ward_name": "פנימית א'",
+    "hospital": "כרמל",
+    "specialty": "רפואה פנימית",
+    "total_beds": 36,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-112",
+    "ward_name": "פנימית ב'",
+    "hospital": "כרמל",
+    "specialty": "רפואה פנימית",
+    "total_beds": 35,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-113",
+    "ward_name": "פנימית ג'",
+    "hospital": "כרמל",
+    "specialty": "רפואה פנימית",
+    "total_beds": 35,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-114",
+    "ward_name": "ט.נ. ילודים",
+    "hospital": "כרמל",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 5,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-115",
+    "ward_name": "טיפול מיוחד בילוד",
+    "hospital": "כרמל",
+    "specialty": "טיפול נמרץ ילודים",
+    "total_beds": 13,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-116",
+    "ward_name": "ילדים",
+    "hospital": "כרמל",
+    "specialty": "ילדים",
+    "total_beds": 38,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-117",
+    "ward_name": "ט.נ. לב",
+    "hospital": "כרמל",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 12,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-118",
+    "ward_name": "ט.נ. כללי",
+    "hospital": "כרמל",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 10,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-119",
+    "ward_name": "נשים",
+    "hospital": "כרמל",
+    "specialty": "נשים ויולדות",
+    "total_beds": 22,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-120",
+    "ward_name": "א.א.ג ראש וצואר",
+    "hospital": "כרמל",
+    "specialty": "אף אוזן גרון",
+    "total_beds": 15,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-121",
+    "ward_name": "עיניים",
+    "hospital": "כרמל",
+    "specialty": "עיניים",
+    "total_beds": 15,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-122",
+    "ward_name": "כירורגיה פלסטית",
+    "hospital": "כרמל",
+    "specialty": "כירורגיה",
+    "total_beds": 6,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-123",
+    "ward_name": "כירורגיה כלי דם",
+    "hospital": "כרמל",
+    "specialty": "כירורגיה",
+    "total_beds": 14,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-124",
+    "ward_name": "כירורגיה חזה ולב",
+    "hospital": "כרמל",
+    "specialty": "כירורגיה",
+    "total_beds": 22,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-125",
+    "ward_name": "אורולוגיה",
+    "hospital": "כרמל",
+    "specialty": "אורולוגיה",
+    "total_beds": 21,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-126",
+    "ward_name": "אורתופדיה",
+    "hospital": "כרמל",
+    "specialty": "אורתופדיה",
+    "total_beds": 32,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-127",
+    "ward_name": "כירורגיה כללית א'",
+    "hospital": "כרמל",
+    "specialty": "כירורגיה",
+    "total_beds": 25,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-128",
+    "ward_name": "כירורגיה כללית ב'",
+    "hospital": "כרמל",
+    "specialty": "כירורגיה",
+    "total_beds": 25,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "CRM-129",
+    "ward_name": "יולדות",
+    "hospital": "כרמל",
+    "specialty": "נשים ויולדות",
+    "total_beds": 38,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-130",
+    "ward_name": "עור ומין",
+    "hospital": "העמק",
+    "specialty": "עור ומין",
+    "total_beds": 8,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-131",
+    "ward_name": "אונקולוגיה",
+    "hospital": "העמק",
+    "specialty": "אונקולוגיה",
+    "total_beds": 26,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-132",
+    "ward_name": "שבץ מוחי",
+    "hospital": "העמק",
+    "specialty": "נוירולוגיה",
+    "total_beds": 4,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-133",
+    "ward_name": "נוירולוגיה",
+    "hospital": "העמק",
+    "specialty": "נוירולוגיה",
+    "total_beds": 15,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-134",
+    "ward_name": "המטולוגיה",
+    "hospital": "העמק",
+    "specialty": "רפואה פנימית",
+    "total_beds": 10,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-135",
+    "ward_name": "פנימית א'",
+    "hospital": "העמק",
+    "specialty": "רפואה פנימית",
+    "total_beds": 33,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-136",
+    "ward_name": "פנימית ב'",
+    "hospital": "העמק",
+    "specialty": "רפואה פנימית",
+    "total_beds": 33,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-137",
+    "ward_name": "פנימית ג'",
+    "hospital": "העמק",
+    "specialty": "רפואה פנימית",
+    "total_beds": 33,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-138",
+    "ward_name": "פנימית ד'",
+    "hospital": "העמק",
+    "specialty": "רפואה פנימית",
+    "total_beds": 33,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-139",
+    "ward_name": "פנימית ה'",
+    "hospital": "העמק",
+    "specialty": "רפואה פנימית",
+    "total_beds": 33,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-140",
+    "ward_name": "כירורגיה ילדים",
+    "hospital": "העמק",
+    "specialty": "כירורגיה",
+    "total_beds": 17,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-141",
+    "ward_name": "ט.נ. ילודים",
+    "hospital": "העמק",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 2,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-142",
+    "ward_name": "טיפול מיוחד בילוד",
+    "hospital": "העמק",
+    "specialty": "טיפול נמרץ ילודים",
+    "total_beds": 28,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-143",
+    "ward_name": "ט.נ. ילדים",
+    "hospital": "העמק",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 6,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-144",
+    "ward_name": "ילדים א'",
+    "hospital": "העמק",
+    "specialty": "ילדים",
+    "total_beds": 30,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-145",
+    "ward_name": "ילדים ב'",
+    "hospital": "העמק",
+    "specialty": "ילדים",
+    "total_beds": 30,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-146",
+    "ward_name": "ט.נ. לב ביניים",
+    "hospital": "העמק",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 6,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-147",
+    "ward_name": "ט.נ. לב",
+    "hospital": "העמק",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 10,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-148",
+    "ward_name": "ט.נ. כללי",
+    "hospital": "העמק",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 10,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-149",
+    "ward_name": "נשים",
+    "hospital": "העמק",
+    "specialty": "נשים ויולדות",
+    "total_beds": 20,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-150",
+    "ward_name": "א.א.ג ראש וצואר",
+    "hospital": "העמק",
+    "specialty": "אף אוזן גרון",
+    "total_beds": 15,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-151",
+    "ward_name": "עיניים",
+    "hospital": "העמק",
+    "specialty": "עיניים",
+    "total_beds": 18,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-152",
+    "ward_name": "כירורגיה פלסטית",
+    "hospital": "העמק",
+    "specialty": "כירורגיה",
+    "total_beds": 8,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-153",
+    "ward_name": "כירורגיה כלי דם",
+    "hospital": "העמק",
+    "specialty": "כירורגיה",
+    "total_beds": 8,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-154",
+    "ward_name": "כירורגיה חזה",
+    "hospital": "העמק",
+    "specialty": "כירורגיה",
+    "total_beds": 4,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-155",
+    "ward_name": "אורולוגיה",
+    "hospital": "העמק",
+    "specialty": "אורולוגיה",
+    "total_beds": 21,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-156",
+    "ward_name": "אורתואונקולוגיה",
+    "hospital": "העמק",
+    "specialty": "אורתופדיה",
+    "total_beds": 2,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-157",
+    "ward_name": "אורתופדיה",
+    "hospital": "העמק",
+    "specialty": "אורתופדיה",
+    "total_beds": 40,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-158",
+    "ward_name": "כירורגיה כללית א'",
+    "hospital": "העמק",
+    "specialty": "כירורגיה",
+    "total_beds": 24,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-159",
+    "ward_name": "כירורגיה כללית ב'",
+    "hospital": "העמק",
+    "specialty": "כירורגיה",
+    "total_beds": 24,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-160",
+    "ward_name": "שיקום כללי",
+    "hospital": "העמק",
+    "specialty": "שיקום",
+    "total_beds": 36,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-161",
+    "ward_name": "הפרע.אכילה ילד.נוער",
+    "hospital": "העמק",
+    "specialty": "פסיכיאטריה",
+    "total_beds": 3,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-162",
+    "ward_name": "פסיכיאטריה פעילה",
+    "hospital": "העמק",
+    "specialty": "פסיכיאטריה",
+    "total_beds": 20,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "EMK-163",
+    "ward_name": "יולדות",
+    "hospital": "העמק",
+    "specialty": "נשים ויולדות",
+    "total_beds": 60,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-164",
+    "ward_name": "שבץ מוחי",
+    "hospital": "מאיר",
+    "specialty": "נוירולוגיה",
+    "total_beds": 4,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-165",
+    "ward_name": "נוירולוגיה",
+    "hospital": "מאיר",
+    "specialty": "נוירולוגיה",
+    "total_beds": 15,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-166",
+    "ward_name": "פנימית גריאטרית",
+    "hospital": "מאיר",
+    "specialty": "רפואה פנימית",
+    "total_beds": 37,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-167",
+    "ward_name": "ריאות",
+    "hospital": "מאיר",
+    "specialty": "רפואה פנימית",
+    "total_beds": 35,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-168",
+    "ward_name": "פנימית א'",
+    "hospital": "מאיר",
+    "specialty": "רפואה פנימית",
+    "total_beds": 34,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-169",
+    "ward_name": "פנימית ב'",
+    "hospital": "מאיר",
+    "specialty": "רפואה פנימית",
+    "total_beds": 34,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-170",
+    "ward_name": "פנימית ג'",
+    "hospital": "מאיר",
+    "specialty": "רפואה פנימית",
+    "total_beds": 33,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-171",
+    "ward_name": "פנימית ד'",
+    "hospital": "מאיר",
+    "specialty": "רפואה פנימית",
+    "total_beds": 33,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-172",
+    "ward_name": "פנימית ה'",
+    "hospital": "מאיר",
+    "specialty": "רפואה פנימית",
+    "total_beds": 33,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-173",
+    "ward_name": "פנימית ו'",
+    "hospital": "מאיר",
+    "specialty": "רפואה פנימית",
+    "total_beds": 33,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-174",
+    "ward_name": "כירורגיה ילדים",
+    "hospital": "מאיר",
+    "specialty": "כירורגיה",
+    "total_beds": 16,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-175",
+    "ward_name": "ט.נ. ילודים",
+    "hospital": "מאיר",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 4,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-176",
+    "ward_name": "טיפול מיוחד בילוד",
+    "hospital": "מאיר",
+    "specialty": "טיפול נמרץ ילודים",
+    "total_beds": 26,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-177",
+    "ward_name": "ט.נ. ילדים",
+    "hospital": "מאיר",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 6,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-178",
+    "ward_name": "ילדים",
+    "hospital": "מאיר",
+    "specialty": "ילדים",
+    "total_beds": 30,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-179",
+    "ward_name": "ט.נ. נשימתי",
+    "hospital": "מאיר",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 6,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-180",
+    "ward_name": "ט.נ. לב",
+    "hospital": "מאיר",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 16,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-181",
+    "ward_name": "ט.נ. כללי",
+    "hospital": "מאיר",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 14,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-182",
+    "ward_name": "הריון בר סיכון",
+    "hospital": "מאיר",
+    "specialty": "נשים ויולדות",
+    "total_beds": 23,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-183",
+    "ward_name": "נשים",
+    "hospital": "מאיר",
+    "specialty": "נשים ויולדות",
+    "total_beds": 23,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-184",
+    "ward_name": "א.א.ג ראש וצואר",
+    "hospital": "מאיר",
+    "specialty": "אף אוזן גרון",
+    "total_beds": 18,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-185",
+    "ward_name": "עיניים",
+    "hospital": "מאיר",
+    "specialty": "עיניים",
+    "total_beds": 19,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-186",
+    "ward_name": "כירורגיה פלסטית",
+    "hospital": "מאיר",
+    "specialty": "כירורגיה",
+    "total_beds": 8,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-187",
+    "ward_name": "כירורגיה כלי דם",
+    "hospital": "מאיר",
+    "specialty": "כירורגיה",
+    "total_beds": 10,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-188",
+    "ward_name": "כירורגיה חזה",
+    "hospital": "מאיר",
+    "specialty": "כירורגיה",
+    "total_beds": 3,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-189",
+    "ward_name": "אורולוגיה",
+    "hospital": "מאיר",
+    "specialty": "אורולוגיה",
+    "total_beds": 30,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-190",
+    "ward_name": "אורתואונקולוגיה",
+    "hospital": "מאיר",
+    "specialty": "אורתופדיה",
+    "total_beds": 2,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-191",
+    "ward_name": "כירורגיה עמוד שדרה",
+    "hospital": "מאיר",
+    "specialty": "כירורגיה",
+    "total_beds": 18,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-192",
+    "ward_name": "אורתופדיה",
+    "hospital": "מאיר",
+    "specialty": "אורתופדיה",
+    "total_beds": 54,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-193",
+    "ward_name": "כירורגיה כללית א'",
+    "hospital": "מאיר",
+    "specialty": "כירורגיה",
+    "total_beds": 32,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-194",
+    "ward_name": "כירורגיה כללית ב'",
+    "hospital": "מאיר",
+    "specialty": "כירורגיה",
+    "total_beds": 32,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-195",
+    "ward_name": "גריאטריה שיקום",
+    "hospital": "מאיר",
+    "specialty": "גריאטריה",
+    "total_beds": 52,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "MER-196",
+    "ward_name": "יולדות",
+    "hospital": "מאיר",
+    "specialty": "נשים ויולדות",
+    "total_beds": 64,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-197",
+    "ward_name": "נוירולוגיה",
+    "hospital": "קפלן",
+    "specialty": "נוירולוגיה",
+    "total_beds": 15,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-198",
+    "ward_name": "פנימית גריאטרית",
+    "hospital": "קפלן",
+    "specialty": "רפואה פנימית",
+    "total_beds": 40,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-199",
+    "ward_name": "פנימית א'",
+    "hospital": "קפלן",
+    "specialty": "רפואה פנימית",
+    "total_beds": 38,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-200",
+    "ward_name": "פנימית ב'",
+    "hospital": "קפלן",
+    "specialty": "רפואה פנימית",
+    "total_beds": 38,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-201",
+    "ward_name": "פנימית ג'",
+    "hospital": "קפלן",
+    "specialty": "רפואה פנימית",
+    "total_beds": 37,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-202",
+    "ward_name": "פנימית ד'",
+    "hospital": "קפלן",
+    "specialty": "רפואה פנימית",
+    "total_beds": 37,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-203",
+    "ward_name": "ט.נ. ילודים",
+    "hospital": "קפלן",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 2,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-204",
+    "ward_name": "טיפול מיוחד בילוד",
+    "hospital": "קפלן",
+    "specialty": "טיפול נמרץ ילודים",
+    "total_beds": 18,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-205",
+    "ward_name": "ט.נ. ילדים",
+    "hospital": "קפלן",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 4,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-206",
+    "ward_name": "ילדים",
+    "hospital": "קפלן",
+    "specialty": "ילדים",
+    "total_beds": 56,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-207",
+    "ward_name": "ט.נ. לב ביניים",
+    "hospital": "קפלן",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 23,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-208",
+    "ward_name": "ט.נ. לב",
+    "hospital": "קפלן",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 8,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-209",
+    "ward_name": "ט.נ. כללי",
+    "hospital": "קפלן",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 14,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-210",
+    "ward_name": "הריון בר סיכון",
+    "hospital": "קפלן",
+    "specialty": "נשים ויולדות",
+    "total_beds": 6,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-211",
+    "ward_name": "נשים",
+    "hospital": "קפלן",
+    "specialty": "נשים ויולדות",
+    "total_beds": 20,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-212",
+    "ward_name": "א.א.ג ראש וצואר",
+    "hospital": "קפלן",
+    "specialty": "אף אוזן גרון",
+    "total_beds": 15,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-213",
+    "ward_name": "עיניים",
+    "hospital": "קפלן",
+    "specialty": "עיניים",
+    "total_beds": 15,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-214",
+    "ward_name": "כירורגיה פלסטית",
+    "hospital": "קפלן",
+    "specialty": "כירורגיה",
+    "total_beds": 5,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-215",
+    "ward_name": "כירורגיה כלי דם",
+    "hospital": "קפלן",
+    "specialty": "כירורגיה",
+    "total_beds": 5,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-216",
+    "ward_name": "כירורגיה לב",
+    "hospital": "קפלן",
+    "specialty": "כירורגיה",
+    "total_beds": 10,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-217",
+    "ward_name": "אורולוגיה",
+    "hospital": "קפלן",
+    "specialty": "אורולוגיה",
+    "total_beds": 16,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-218",
+    "ward_name": "אורתואונקולוגיה",
+    "hospital": "קפלן",
+    "specialty": "אורתופדיה",
+    "total_beds": 2,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-219",
+    "ward_name": "כירורגיה כף יד",
+    "hospital": "קפלן",
+    "specialty": "כירורגיה",
+    "total_beds": 6,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-220",
+    "ward_name": "אורתופדיה",
+    "hospital": "קפלן",
+    "specialty": "אורתופדיה",
+    "total_beds": 37,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-221",
+    "ward_name": "כירורגיה כללית",
+    "hospital": "קפלן",
+    "specialty": "כירורגיה",
+    "total_beds": 60,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-222",
+    "ward_name": "יולדות א'",
+    "hospital": "קפלן",
+    "specialty": "נשים ויולדות",
+    "total_beds": 27,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "KAP-223",
+    "ward_name": "יולדות ב'",
+    "hospital": "קפלן",
+    "specialty": "נשים ויולדות",
+    "total_beds": 27,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "YOS-224",
+    "ward_name": "פנימית",
+    "hospital": "יוספטל",
+    "specialty": "רפואה פנימית",
+    "total_beds": 18,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "YOS-225",
+    "ward_name": "ילדים",
+    "hospital": "יוספטל",
+    "specialty": "ילדים",
+    "total_beds": 10,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "YOS-226",
+    "ward_name": "ט.נ. כללי",
+    "hospital": "יוספטל",
+    "specialty": "טיפול נמרץ",
+    "total_beds": 4,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "YOS-227",
+    "ward_name": "נשים",
+    "hospital": "יוספטל",
+    "specialty": "נשים ויולדות",
+    "total_beds": 6,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "YOS-228",
+    "ward_name": "אורתופדיה",
+    "hospital": "יוספטל",
+    "specialty": "אורתופדיה",
+    "total_beds": 12,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "YOS-229",
+    "ward_name": "כירורגיה כללית",
+    "hospital": "יוספטל",
+    "specialty": "כירורגיה",
+    "total_beds": 14,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "YOS-230",
+    "ward_name": "יולדות",
+    "hospital": "יוספטל",
+    "specialty": "נשים ויולדות",
+    "total_beds": 7,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "GHA-231",
+    "ward_name": "פסיכיאטריה פעילה נוער",
+    "hospital": "גהה",
+    "specialty": "פסיכיאטריה",
+    "total_beds": 30,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "GHA-232",
+    "ward_name": "פסיכיאטריה פעילה א'",
+    "hospital": "גהה",
+    "specialty": "פסיכיאטריה",
+    "total_beds": 28,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "GHA-233",
+    "ward_name": "פסיכיאטריה פעילה ב'",
+    "hospital": "גהה",
+    "specialty": "פסיכיאטריה",
+    "total_beds": 27,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "GHA-234",
+    "ward_name": "פסיכיאטריה פעילה ג'",
+    "hospital": "גהה",
+    "specialty": "פסיכיאטריה",
+    "total_beds": 27,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "GHA-235",
+    "ward_name": "פסיכיאטריה פעילה ד'",
+    "hospital": "גהה",
+    "specialty": "פסיכיאטריה",
+    "total_beds": 27,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "GHA-236",
+    "ward_name": "פסיכיאטריה פעילה ה'",
+    "hospital": "גהה",
+    "specialty": "פסיכיאטריה",
+    "total_beds": 27,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SHV-237",
+    "ward_name": "פסיכיאטריה פעילה נוער",
+    "hospital": "שלוותה",
+    "specialty": "פסיכיאטריה",
+    "total_beds": 30,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SHV-238",
+    "ward_name": "פסיכיאטריה פעילה א'",
+    "hospital": "שלוותה",
+    "specialty": "פסיכיאטריה",
+    "total_beds": 22,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SHV-239",
+    "ward_name": "פסיכיאטריה פעילה ב'",
+    "hospital": "שלוותה",
+    "specialty": "פסיכיאטריה",
+    "total_beds": 22,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SHV-240",
+    "ward_name": "פסיכיאטריה פעילה ג'",
+    "hospital": "שלוותה",
+    "specialty": "פסיכיאטריה",
+    "total_beds": 22,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SHV-241",
+    "ward_name": "פסיכיאטריה פעילה ד'",
+    "hospital": "שלוותה",
+    "specialty": "פסיכיאטריה",
+    "total_beds": 22,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "SHV-242",
+    "ward_name": "פסיכיאטריה פעילה ה'",
+    "hospital": "שלוותה",
+    "specialty": "פסיכיאטריה",
+    "total_beds": 21,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "BRV-243",
+    "ward_name": "הנשמה ממושכת",
+    "hospital": "בית רבקה",
+    "specialty": "גריאטריה",
+    "total_beds": 48,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "BRV-244",
+    "ward_name": "סיעוד מורכב תומך א'",
+    "hospital": "בית רבקה",
+    "specialty": "גריאטריה",
+    "total_beds": 35,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "BRV-245",
+    "ward_name": "סיעוד מורכב תומך ב'",
+    "hospital": "בית רבקה",
+    "specialty": "גריאטריה",
+    "total_beds": 35,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "BRV-246",
+    "ward_name": "גריאטריה שיקום א'",
+    "hospital": "בית רבקה",
+    "specialty": "גריאטריה",
+    "total_beds": 50,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "BRV-247",
+    "ward_name": "גריאטריה שיקום ב'",
+    "hospital": "בית רבקה",
+    "specialty": "גריאטריה",
+    "total_beds": 50,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "BRV-248",
+    "ward_name": "גריאטריה שיקום ג'",
+    "hospital": "בית רבקה",
+    "specialty": "גריאטריה",
+    "total_beds": 50,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "HRZ-249",
+    "ward_name": "הנשמה ממושכת",
+    "hospital": "הרצפלד",
+    "specialty": "גריאטריה",
+    "total_beds": 36,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "HRZ-250",
+    "ward_name": "גריאטריה תת חריפה",
+    "hospital": "הרצפלד",
+    "specialty": "גריאטריה",
+    "total_beds": 39,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "HRZ-251",
+    "ward_name": "סיעוד מורכב תומך",
+    "hospital": "הרצפלד",
+    "specialty": "גריאטריה",
+    "total_beds": 78,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "HRZ-252",
+    "ward_name": "גריאטריה שיקום א'",
+    "hospital": "הרצפלד",
+    "specialty": "גריאטריה",
+    "total_beds": 39,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "HRZ-253",
+    "ward_name": "גריאטריה שיקום ב'",
+    "hospital": "הרצפלד",
+    "specialty": "גריאטריה",
+    "total_beds": 39,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "LOW-254",
+    "ward_name": "ט.נ. שיקומי מחוסרי הכרה",
+    "hospital": "לוינשטיין",
+    "specialty": "שיקום",
+    "total_beds": 20,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "LOW-255",
+    "ward_name": "שיקום אונקולוגי",
+    "hospital": "לוינשטיין",
+    "specialty": "שיקום",
+    "total_beds": 18,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "LOW-256",
+    "ward_name": "שיקום נוירולוגי א'",
+    "hospital": "לוינשטיין",
+    "specialty": "שיקום",
+    "total_beds": 45,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "LOW-257",
+    "ward_name": "שיקום נוירולוגי ב'",
+    "hospital": "לוינשטיין",
+    "specialty": "שיקום",
+    "total_beds": 45,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "LOW-258",
+    "ward_name": "שיקום נוירולוגי ג'",
+    "hospital": "לוינשטיין",
+    "specialty": "שיקום",
+    "total_beds": 45,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "LOW-259",
+    "ward_name": "שיקום נוירולוגי ד'",
+    "hospital": "לוינשטיין",
+    "specialty": "שיקום",
+    "total_beds": 45,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "LOW-260",
+    "ward_name": "שיקום אורתופדי",
+    "hospital": "לוינשטיין",
+    "specialty": "שיקום",
+    "total_beds": 36,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "LOW-261",
+    "ward_name": "שיקום ילדים",
+    "hospital": "לוינשטיין",
+    "specialty": "שיקום",
+    "total_beds": 24,
+    "manager": "",
+    "active": true
+  },
+  {
+    "ward_code": "LOW-262",
+    "ward_name": "שיקום כללי",
+    "hospital": "לוינשטיין",
+    "specialty": "שיקום",
+    "total_beds": 30,
+    "manager": "",
+    "active": true
+  }
+]

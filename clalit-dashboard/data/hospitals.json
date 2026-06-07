@@ -1,0 +1,156 @@
+[
+  {
+    "code": "SOR",
+    "name": "סורוקה",
+    "nameEn": "Soroka",
+    "fullName": "המרכז הרפואי האוניברסיטאי סורוקה",
+    "city": "באר שבע",
+    "type": "כללי",
+    "beds": 1191,
+    "lat": 31.25889,
+    "lng": 34.80139
+  },
+  {
+    "code": "RBB",
+    "name": "רבין - בילינסון",
+    "nameEn": "Rabin-Beilinson",
+    "fullName": "מרכז רפואי רבין - קמפוס בילינסון",
+    "city": "פתח תקווה",
+    "type": "כללי",
+    "beds": 858,
+    "lat": 32.09000,
+    "lng": 34.86750
+  },
+  {
+    "code": "RBG",
+    "name": "רבין - גולדה השרון",
+    "nameEn": "Rabin-Golda HaSharon",
+    "fullName": "מרכז רפואי רבין - קמפוס גולדה השרון",
+    "city": "פתח תקווה",
+    "type": "כללי",
+    "beds": 241,
+    "lat": 32.07949,
+    "lng": 34.88135
+  },
+  {
+    "code": "SCH",
+    "name": "שניידר",
+    "nameEn": "Schneider Children's",
+    "fullName": "מרכז שניידר לרפואת ילדים",
+    "city": "פתח תקווה",
+    "type": "כללי",
+    "beds": 304,
+    "lat": 32.08806,
+    "lng": 34.86750
+  },
+  {
+    "code": "CRM",
+    "name": "כרמל",
+    "nameEn": "Carmel",
+    "fullName": "המרכז הרפואי כרמל",
+    "city": "חיפה",
+    "type": "כללי",
+    "beds": 489,
+    "lat": 32.78656,
+    "lng": 34.98032
+  },
+  {
+    "code": "EMK",
+    "name": "העמק",
+    "nameEn": "HaEmek",
+    "fullName": "המרכז הרפואי העמק",
+    "city": "עפולה",
+    "type": "כללי",
+    "beds": 670,
+    "lat": 32.62083,
+    "lng": 35.31583
+  },
+  {
+    "code": "MER",
+    "name": "מאיר",
+    "nameEn": "Meir",
+    "fullName": "המרכז הרפואי מאיר",
+    "city": "כפר סבא",
+    "type": "כללי",
+    "beds": 797,
+    "lat": 32.18194,
+    "lng": 34.89583
+  },
+  {
+    "code": "KAP",
+    "name": "קפלן",
+    "nameEn": "Kaplan",
+    "fullName": "המרכז הרפואי קפלן",
+    "city": "רחובות",
+    "type": "כללי",
+    "beds": 581,
+    "lat": 31.87348,
+    "lng": 34.81473
+  },
+  {
+    "code": "YOS",
+    "name": "יוספטל",
+    "nameEn": "Yoseftal",
+    "fullName": "המרכז הרפואי יוספטל",
+    "city": "אילת",
+    "type": "כללי",
+    "beds": 71,
+    "lat": 29.55421,
+    "lng": 34.94054
+  },
+  {
+    "code": "GHA",
+    "name": "גהה",
+    "nameEn": "Geha",
+    "fullName": "המרכז לבריאות הנפש גהה",
+    "city": "פתח תקווה",
+    "type": "פסיכיאטרי",
+    "beds": 166,
+    "lat": 32.08922,
+    "lng": 34.86491
+  },
+  {
+    "code": "SHV",
+    "name": "שלוותה",
+    "nameEn": "Shalvata",
+    "fullName": "המרכז לבריאות הנפש שלוותה",
+    "city": "הוד השרון",
+    "type": "פסיכיאטרי",
+    "beds": 139,
+    "lat": 32.15431,
+    "lng": 34.89926
+  },
+  {
+    "code": "LOW",
+    "name": "לוינשטיין",
+    "nameEn": "Loewenstein",
+    "fullName": "המרכז הרפואי לשיקום לוינשטיין",
+    "city": "רעננה",
+    "type": "שיקומי",
+    "beds": 308,
+    "lat": 32.18687,
+    "lng": 34.85605
+  },
+  {
+    "code": "BRV",
+    "name": "בית רבקה",
+    "nameEn": "Beit Rivka",
+    "fullName": "בית החולים הגריאטרי בית רבקה",
+    "city": "פתח תקווה",
+    "type": "גריאטרי",
+    "beds": 268,
+    "lat": 32.08400,
+    "lng": 34.88600
+  },
+  {
+    "code": "HRZ",
+    "name": "הרצפלד",
+    "nameEn": "Herzfeld",
+    "fullName": "המרכז הגריאטרי הרצפלד",
+    "city": "גדרה",
+    "type": "גריאטרי",
+    "beds": 231,
+    "lat": 31.80778,
+    "lng": 34.77972
+  }
+]
