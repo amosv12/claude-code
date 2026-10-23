@@ -1,0 +1,22 @@
+---
+description: Espresso dial-in app project rules
+alwaysApply: true
+---
+
+# Stack (fixed — do not substitute; ask before adding any other dependency)
+
+- Vite + React 18 + TypeScript (strict)
+- Tailwind CSS
+- Dexie.js (IndexedDB) for persistence. No backend, no auth, no cloud sync.
+- React Router
+- Vitest
+- vite-plugin-pwa (installable, offline; used on a phone next to the machine)
+
+# Rules
+
+- Units: grams, seconds, °C, bar, ppm as CaCO3.
+- Pure domain logic lives in `src/domain/`, has no React imports, and every function has a Vitest test.
+- Derived values (ratio, daysOffRoast, extractionYieldPct) are computed, never stored.
+- Mobile-first, ≥44px touch targets, one-handed use.
+- Numeric inputs use `inputMode="decimal"`, accept a comma as the decimal separator, and show grams to 0.1 g.
+- No analytics and no external network calls.
